@@ -142,17 +142,18 @@ img {
     .main-2d{
         display: flex;
         flex-direction: row;
-        align-items: center;
     }
     .videos2d {
         margin: 20px 5px 20px 5px;
+        display: grid;
+        grid-template-rows: auto auto;
     }
-    .video1-2d{
-        height: 500px;
+    /*.video1-2d{
+        
     }
     .video2-2d{
-        height: 500px;
-    }
+        
+    }*/
     .img2d {
         margin: 20px 5px 5px 1px;
     }
